@@ -1,0 +1,483 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
+    <title>Portfolio | Venoxy Arts</title>
+</head>
+
+<body class="bg-[#111121]">
+    <div id="bg-container">
+        <div id="container-inside">
+            <div id="circle-small"></div>
+            <div id="circle-medium"></div>
+            <div id="circle-large"></div>
+            <div id="circle-xlarge"></div>
+            <div id="circle-xxlarge"></div>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 max-w-6xl">
+        <header class="flex flex-col flex-center items-center justify-center py-10">
+            <h1 class="logo text-5xl md:text-7xl mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-emerald-500 to-rose-500">Venoxy</h1>
+            <p class="tagline text-lg md:text-xl text-gray-300 mb-8">Digital Artist & Developer</p>
+
+            <div class="nav-container w-full max-w-3xl bg-[#1a1a2e]/80 backdrop-blur-md top-4 z-20 py-4 px-4 flex gap-4 items-center font-sans flex-col md:flex-row md:justify-center rounded-[32px] md:rounded-full border-[0.5px] border-white/10 drop-shadow-xl h-min">
+                <a href="index.html" class="nav-button flex items-center gap-2 w-fit font-medium p-2 px-5 min-w-max text-sm font-bold text-center rounded-full transition-all md:text-base border-[0.5px] border-white/10 hover:border-white/20 shadow-md hover:shadow-lg bg-[#1a1a2e] text-purple-400 hover:bg-purple-900/30">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="currentColor"><path d="M264-216h96v-240h240v240h96v-348L480-726 264-564v348Zm-72 72v-456l288-216 288 216v456H528v-240h-96v240H192Zm288-327Z"/></svg>Home
+                </a>
+
+                <a href="about.html" class="nav-button flex items-center gap-2 w-fit font-medium p-2 px-5 min-w-max text-sm font-bold text-center rounded-full transition-all md:text-base border-[0.5px] border-white/10 hover:border-white/20 shadow-md hover:shadow-lg bg-[#1a1a2e] text-emerald-400 hover:bg-emerald-900/30">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="currentColor" class="inline">
+                        <path d="M360.11-408Q340-408 326-421.89q-14-13.88-14-34Q312-476 325.89-490q13.88-14 34-14Q380-504 394-490.11q14 13.88 14 34Q408-436 394.11-422q-13.88 14-34 14Zm240 0Q580-408 566-421.89q-14-13.88-14-34Q552-476 565.89-490q13.88-14 34-14Q620-504 634-490.11q14 13.88 14 34Q648-436 634.11-422q-13.88 14-34 14ZM480.46-168q130.46 0 221-91Q792-350 792-479.76q0-23.24-5-52.74-5-29.5-13-51.5-21 5-38 6.5t-40 1.5q-85.96 0-162.48-33.5T397-706q-37 78-93.5 129T170-500q-1 4-1.5 10t-.5 10q0 130 91 221t221.46 91ZM480-96q-79.38 0-149.19-30T208.5-208.5Q156-261 126-330.96t-30-149.5Q96-560 126-630q30-70 82.5-122t122.46-82q69.96-30 149.5-30t149.55 30.24q70 30.24 121.79 82.08 51.78 51.84 81.99 121.92Q864-559.68 864-480q0 79.38-30 149.19T752-208.5Q700-156 629.87-126T480-96Zm-55-691q46 63 117 101t154 38q12 0 21-.5t23-2.47Q691-720 625-756t-144.51-36q-12.49 0-26.47 1.5Q440.05-789 425-787ZM187-585q57-29 95-71.5T342-758q-63 37-100 78t-55 95Zm238-202Zm-83 29Z" />
+                    </svg>About
+                </a>
+                
+                <a href="works.html" class="nav-button flex items-center gap-2 w-fit font-medium p-2 px-5 min-w-max text-sm font-bold text-center rounded-full transition-all md:text-base border-[0.5px] border-white/10 hover:border-white/20 shadow-md hover:shadow-lg bg-yellow-900/50 text-white hover:bg-yellow-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="currentColor" class="inline">
+                        <path d="M263.72-96Q234-96 213-117.15T192-168v-624q0-29.7 21.16-50.85Q234.32-864 264.04-864h432.24Q726-864 747-842.85T768-792v624q0 29.7-21.16 50.85Q725.68-96 695.96-96H263.72Zm.28-72h432v-624H264v624Zm48-72h336L528-400l-84 112-48-64-84 112Zm-48 72v-624 624Z" />
+                    </svg>Works
+                </a>
+                
+                <a href="contact.html" class="nav-button flex items-center gap-2 w-fit font-medium p-2 px-5 min-w-max text-sm font-bold text-center rounded-full transition-all md:text-base border-[0.5px] border-white/10 hover:border-white/20 shadow-md hover:shadow-lg bg-[#1a1a2e] text-rose-400 hover:bg-rose-900/30">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="currentColor" class="inline">
+                        <path d="M480.39-96q-79.52 0-149.45-30Q261-156 208.5-208.5T126-330.96q-30-69.96-30-149.5t30-149.04q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5t82.5 122Q864-560 864-480v60q0 54.85-38.5 93.42Q787-288 732-288q-34 0-62.5-17t-48.66-45Q593-321 556.5-304.5T480-288q-79.68 0-135.84-56.23-56.16-56.22-56.16-136Q288-560 344.23-616q56.22-56 136-56Q560-672 616-615.84q56 56.16 56 135.84v60q0 25.16 17.5 42.58Q707-360 732-360t42.5-17.42Q792-394.84 792-420v-60q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91h192v72H480.39ZM480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Z" />
+                    </svg>Contact
+                </a>
+            </div>
+        </header>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center text-white">My Portfolio</h2>
+            
+            <!-- Portfolio Filter -->
+            <div class="flex flex-wrap justify-center gap-3 mb-10">
+                <button class="filter-btn active px-4 py-2 rounded-full bg-yellow-900/50 text-white font-medium border border-yellow-700/50 hover:bg-yellow-800/60 transition-all">All Works</button>
+                <button class="filter-btn px-4 py-2 rounded-full bg-[#1a1a2e] text-purple-400 font-medium border border-purple-500/20 hover:bg-purple-900/30 hover:text-white transition-all">Digital Art</button>
+                <button class="filter-btn px-4 py-2 rounded-full bg-[#1a1a2e] text-emerald-400 font-medium border border-emerald-500/20 hover:bg-emerald-900/30 hover:text-white transition-all">Photography</button>
+                <button class="filter-btn px-4 py-2 rounded-full bg-[#1a1a2e] text-rose-400 font-medium border border-rose-500/20 hover:bg-rose-900/30 hover:text-white transition-all">Web Design</button>
+                <button class="filter-btn px-4 py-2 rounded-full bg-[#1a1a2e] text-amber-400 font-medium border border-amber-500/20 hover:bg-amber-900/30 hover:text-white transition-all">Traditional Art</button>
+            </div>
+            
+            <!-- Portfolio Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+                <!-- Digital Art 1 -->
+                <div class="portfolio-item digital-art group">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-purple-500/10 hover:border-purple-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/digital-arts/Moonlit-Paradise.webp" alt="Digital Art - Moonlit Paradise" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Moonlit Paradise</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-purple-900/30 text-purple-400">Digital Art</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Atmospheric digital painting featuring mystical environment and celestial elements.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Digital Art 2 -->
+                <div class="portfolio-item digital-art group">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-purple-500/10 hover:border-purple-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/digital-arts/ichie-fan-art.webp" alt="Digital Art - Character Fan Art" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Ichie Fan Art</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-purple-900/30 text-purple-400">Digital Art</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Character fan artwork with stylized design and vibrant color palette.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Photography 1 -->
+                <div class="portfolio-item photography group">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-emerald-500/10 hover:border-emerald-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/photography/golden-memory.webp" alt="Photography - Golden Memory" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Golden Memory</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-emerald-900/30 text-emerald-400">Photography</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Architectural photography capturing golden hour light on urban structures.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Photography 2 -->
+                <div class="portfolio-item photography group">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-emerald-500/10 hover:border-emerald-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/photography/lamp.webp" alt="Photography - Lamp" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Illumination</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-emerald-900/30 text-emerald-400">Photography</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Minimalist study of light and shadow through urban lamp photography.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Design 1 -->
+                <div class="portfolio-item web-design group">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-rose-500/10 hover:border-rose-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/web-dev/its-our-studio.webp" alt="Web Design - Studio Website" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Creative Studio Site</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-rose-900/30 text-rose-400">Web Design</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Modern, responsive website design for a creative digital agency featuring clean layout.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Traditional Art -->
+                <div class="portfolio-item traditional-art group">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-amber-500/10 hover:border-amber-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/traditional-arts/yellow.webp" alt="Traditional Art - Yellow" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Yellow Dreams</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-amber-900/30 text-amber-400">Traditional Art</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Hand-drawn portrait study with vibrant yellow tones exploring emotion and expression.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ADDITIONAL GALLERY ITEMS (Initially Hidden) -->
+                <!-- These will be shown when "See More" is clicked -->
+                
+                <!-- Digital Art 3 -->
+                <div class="portfolio-item digital-art group hidden gallery-item">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-purple-500/10 hover:border-purple-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/digital-arts/Pear-Gaming-Fanart.webp" alt="Digital Art - Pear Gaming Fanart" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Pear Gaming Fanart</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-purple-900/30 text-purple-400">Digital Art</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Gaming-themed fan artwork with playful character design and dynamic composition.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Digital Art 4 -->
+                <div class="portfolio-item digital-art group hidden gallery-item">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-purple-500/10 hover:border-purple-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/digital-arts/sooOnic-graphic-design.webp" alt="Digital Art - Graphic Design" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">SooOnic Design</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-purple-900/30 text-purple-400">Digital Art</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Character-based graphic design with modern styling and bold color choices.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Photography 3 -->
+                <div class="portfolio-item photography group hidden gallery-item">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-emerald-500/10 hover:border-emerald-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/photography/forgotten-abode.webp" alt="Photography - Forgotten Abode" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Forgotten Abode</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-emerald-900/30 text-emerald-400">Photography</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Urban exploration photography capturing abandoned spaces and architectural decay.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Photography 4 -->
+                <div class="portfolio-item photography group hidden gallery-item">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-emerald-500/10 hover:border-emerald-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/photography/sky-gazer.webp" alt="Photography - Sky Gazer" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Sky Gazer</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-emerald-900/30 text-emerald-400">Photography</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Perspective photography exploring urban architecture against dramatic skies.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Traditional Art 2 -->
+                <div class="portfolio-item traditional-art group hidden gallery-item">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-amber-500/10 hover:border-amber-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/traditional-arts/mystic.webp" alt="Traditional Art - Mystic" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Mystic Portrait</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-amber-900/30 text-amber-400">Traditional Art</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Traditional portrait with mystical elements and expressive brushwork.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Design 2 -->
+                <div class="portfolio-item web-design group hidden gallery-item">
+                    <div class="relative overflow-hidden rounded-xl bg-[#1a1a2e] border border-rose-500/10 hover:border-rose-500/30 transition-all shadow-lg hover:shadow-xl h-[350px]">
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="assets/images/web-dev/venoxy-arts-ports.webp" alt="Web Design - Portfolio" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] to-transparent opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-white">Venoxy Arts Portfolio</h3>
+                                <span class="text-xs font-medium px-2 py-1 rounded-full bg-rose-900/30 text-rose-400">Web Design</span>
+                            </div>
+                            <p class="text-gray-400 line-clamp-3">Personal portfolio website featuring modern design elements and responsive layout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- See More Button -->
+            <div class="flex justify-center mt-10">
+                <button id="see-more-btn" class="px-6 py-3 bg-gradient-to-r from-yellow-600 to-yellow-800 hover:from-yellow-700 hover:to-yellow-900 text-white font-bold rounded-full transition-all shadow-lg hover:shadow-xl flex items-center gap-2">
+                    <span>See More</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Category Gallery Section -->
+            <div class="mt-24 mb-16">
+                <h3 class="text-2xl font-bold mb-8 text-center text-white">Browse by Category</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Digital Art Category -->
+                    <div class="group">
+                        <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-purple-900/30 to-purple-900/10 border border-purple-500/20 hover:border-purple-500/40 transition-all shadow-lg h-80">
+                            <div class="absolute inset-0 overflow-hidden opacity-60">
+                                <img src="assets/images/digital-arts/Moonlit-Paradise.webp" alt="Digital Art Gallery" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#1a1a2e]/80 to-transparent"></div>
+                            <div class="absolute bottom-0 left-0 right-0 p-6 text-center">
+                                <h4 class="text-2xl font-bold text-purple-400 mb-3">Digital Art</h4>
+                                <p class="text-gray-300 mb-4">Explore all digital artwork including illustrations, concept art, and character designs.</p>
+                                <a href="#" class="inline-block px-6 py-2 rounded-full bg-purple-900/50 border border-purple-500/30 text-white font-medium hover:bg-purple-900/70 transition-all">
+                                    View Gallery
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Photography Category -->
+                    <div class="group">
+                        <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-emerald-900/30 to-emerald-900/10 border border-emerald-500/20 hover:border-emerald-500/40 transition-all shadow-lg h-80">
+                            <div class="absolute inset-0 overflow-hidden opacity-60">
+                                <img src="assets/images/photography/golden-memory.webp" alt="Photography Gallery" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#1a1a2e]/80 to-transparent"></div>
+                            <div class="absolute bottom-0 left-0 right-0 p-6 text-center">
+                                <h4 class="text-2xl font-bold text-emerald-400 mb-3">Photography</h4>
+                                <p class="text-gray-300 mb-4">Discover street photography, urban landscapes, and documentary-style image collections.</p>
+                                <a href="#" class="inline-block px-6 py-2 rounded-full bg-emerald-900/50 border border-emerald-500/30 text-white font-medium hover:bg-emerald-900/70 transition-all">
+                                    View Gallery
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Design Category -->
+                    <div class="group">
+                        <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-rose-900/30 to-rose-900/10 border border-rose-500/20 hover:border-rose-500/40 transition-all shadow-lg h-80">
+                            <div class="absolute inset-0 overflow-hidden opacity-60">
+                                <img src="assets/images/web-dev/its-our-studio.webp" alt="Web Design Gallery" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#1a1a2e]/80 to-transparent"></div>
+                            <div class="absolute bottom-0 left-0 right-0 p-6 text-center">
+                                <h4 class="text-2xl font-bold text-rose-400 mb-3">Web Design</h4>
+                                <p class="text-gray-300 mb-4">Browse website designs, UI/UX projects, and interactive digital experiences.</p>
+                                <a href="#" class="inline-block px-6 py-2 rounded-full bg-rose-900/50 border border-rose-500/30 text-white font-medium hover:bg-rose-900/70 transition-all">
+                                    View Gallery
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Traditional Art Category -->
+                    <div class="group md:col-span-3 lg:col-span-1 mt-6 md:mt-6 lg:mt-0">
+                        <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-amber-900/30 to-amber-900/10 border border-amber-500/20 hover:border-amber-500/40 transition-all shadow-lg h-80">
+                            <div class="absolute inset-0 overflow-hidden opacity-60">
+                                <img src="assets/images/traditional-arts/yellow.webp" alt="Traditional Art Gallery" class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#1a1a2e]/80 to-transparent"></div>
+                            <div class="absolute bottom-0 left-0 right-0 p-6 text-center">
+                                <h4 class="text-2xl font-bold text-amber-400 mb-3">Traditional Art</h4>
+                                <p class="text-gray-300 mb-4">View hand-drawn illustrations, sketches, and traditional media artwork.</p>
+                                <a href="#" class="inline-block px-6 py-2 rounded-full bg-amber-900/50 border border-amber-500/30 text-white font-medium hover:bg-amber-900/70 transition-all">
+                                    View Gallery
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to Action -->
+        <section class="mb-16">
+            <div class="relative overflow-hidden rounded-2xl p-8 md:p-12 bg-gradient-to-br from-[#1a1a2e] to-[#201e36] border border-white/5">
+                <!-- Decorative elements -->
+                <div class="absolute top-0 left-0 w-full h-full opacity-10">
+                    <div class="absolute top-10 right-10 w-40 h-40 rounded-full bg-purple-500 blur-3xl"></div>
+                    <div class="absolute bottom-10 left-10 w-40 h-40 rounded-full bg-emerald-500 blur-3xl"></div>
+                </div>
+                
+                <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Have a Project in Mind?</h2>
+                        <p class="text-gray-300 max-w-lg">I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision. Let's create something amazing together.</p>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-4 justify-center md:justify-end">
+                        <a href="contact.html" class="px-8 py-3 bg-gradient-to-r from-purple-600 to-rose-600 hover:from-purple-700 hover:to-rose-700 text-white font-bold rounded-full transition-all shadow-lg hover:shadow-xl">
+                            Start a Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer py-8 border-t border-gray-800">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="text-gray-400 text-center md:text-left">
+                    <p>&copy; 2024 Venoxy Arts. All rights reserved.</p>
+                    <p class="mt-2">Digital art, photography, web development, and creative solutions by Venoxy. Always open for collaboration and new projects.</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-2 md:gap-4 items-center">
+                    <a href="mailto:venoxyarts@gmail.com" class="text-emerald-400 hover:underline font-medium">Email: venoxyarts@gmail.com</a>
+                    <a href="https://github.com/Sedictt" target="_blank" rel="noopener" class="text-purple-400 hover:underline font-medium">GitHub: github.com/Sedictt</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // References to DOM elements
+        const seeMoreBtn = document.getElementById('see-more-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        
+        // See More button functionality
+        let isExpanded = false;
+        
+        seeMoreBtn.addEventListener('click', function() {
+            if (!isExpanded) {
+                // Show all hidden gallery items
+                galleryItems.forEach(item => {
+                    item.classList.remove('hidden');
+                });
+                
+                // Change button text
+                seeMoreBtn.innerHTML = `
+                    <span>See Less</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 111.414 1.414l4-4a1 1 0 010 1.414z" clip-rule="evenodd" />
+                    </svg>
+                `;
+                
+                isExpanded = true;
+            } else {
+                // Hide gallery items
+                galleryItems.forEach(item => {
+                    item.classList.add('hidden');
+                });
+                
+                // Reset button text
+                seeMoreBtn.innerHTML = `
+                    <span>See More</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                `;
+                
+                isExpanded = false;
+                
+                // Scroll back to portfolio section
+                document.getElementById('portfolio-grid').scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+        
+        // Filter functionality
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active', 'bg-yellow-900/50', 'text-white'));
+                filterBtns.forEach(b => b.classList.add('bg-[#1a1a2e]'));
+                
+                // Add active class to clicked button
+                this.classList.add('active', 'bg-yellow-900/50', 'text-white');
+                this.classList.remove('bg-[#1a1a2e]');
+                
+                const filterValue = this.textContent.trim().toLowerCase();
+                
+                // Show/hide items based on filter
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all works') {
+                        item.style.display = 'block';
+                    } else if (item.classList.contains(filterValue.replace(' ', '-'))) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+                
+                // If "All Works" is selected and gallery is not expanded, hide the extra items
+                if (filterValue === 'all works' && !isExpanded) {
+                    galleryItems.forEach(item => {
+                        item.classList.add('hidden');
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+</html> 
